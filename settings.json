@@ -17,7 +17,7 @@
     "window.menuBarVisibility": "compact",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "workbench.colorTheme": "Dainty – Nord (chroma 1, lightness 0)",
-    "background.fullscreen": {
+    "background.fullscreen": {  // shalldie background extension
       "images": [
         "file:///C:/Users/felip/Pictures/nordwalls/Mountain-Jaws.jpg"
         ],
