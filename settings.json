@@ -16,14 +16,15 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "window.menuBarVisibility": "compact",
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "workbench.colorTheme": "Dainty – Nord (chroma 1, lightness 0)",
-    "background.fullscreen": {  // shalldie background extension
-      "images": [
-        "file:///C:/Users/felip/Pictures/nordwalls/Mountain-Jaws.jpg"
+    "background.fullscreen": {
+      "images": [ 
+        "file:///C:/pictures/walls/others/48.png"
         ],
-      "opacity": 0.9,                           // Set the opacity (0.85 ~ 0.95 recommended)
-      "size": "cover",                          // Set the size (e.g., cover, contain)
+      "opacity": 0.95,                           // Set the opacity (0.85 ~ 0.95 recommended)
+      "size": "cover",                        // Set the size (e.g., cover, contain)
       "position": "center",                     // Set the position (e.g., center, top right)
       "interval": 0                             // Set interval for carousel, 0 to disable
-    }
+    },
+    "workbench.colorTheme": "Monokai Night",
+    "workbench.statusBar.visible": false
 }
