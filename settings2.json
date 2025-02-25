@@ -1,0 +1,81 @@
+{
+  "workbench.startupEditor": "none",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 0,
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.tabSize": 2,
+  "editor.stickyScroll.enabled": false,
+  "explorer.confirmPasteNative": false,
+  "editor.fontSize": 14.6,
+  "vsicons.dontShowNewVersionMessage": true,
+  "update.showReleaseNotes": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.statusBar.visible": false,
+  "window.confirmSaveUntitledWorkspace": false,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.fontWeight": "normal",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "window.titleBarStyle": "custom",
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.startupPrompt": "never",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "vsicons.associations.files": [
+    {
+      "pattern": "*", // Match files without extensions
+      "icon": "Bash" // Use a generic file icon
+    },
+    {
+      "pattern": "*.list", // Match files with the .list extension
+      "icon": "file" // Use a generic file icon
+    }
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Monokai Night",
+  "window.customTitleBarVisibility": "never",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "window.menuBarVisibility": "compact"
+}
