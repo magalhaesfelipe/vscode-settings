@@ -1,0 +1,48 @@
+{
+  "chat.commandCenter.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  },
+  "explorer.confirmPasteNative": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "window.menuBarVisibility": "compact",
+  "terminal.integrated.tabs.enabled": true,
+  "task.allowAutomaticTasks": "on",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "terminal.integrated.copyOnSelection": true,
+  "github.copilot.enable": {
+    "*": false
+  },
+  "workbench.settings.applyToAllProfiles": [
+    "terminal.integrated.suggest.enabled"
+  ],
+  "settingsSync.ignoredExtensions": ["iwyvi.chinolor"],
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "prettier.enableDebugLogs": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "hidden",
+  "turboConsoleLog.delimiterInsideMessage": "-",
+  "turboConsoleLog.logMessagePrefix": "🟧",
+  "workbench.colorTheme": "Monokai Night",
+  "window.newWindowDimensions": "maximized"
+}
