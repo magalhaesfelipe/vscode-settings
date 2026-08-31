@@ -6,7 +6,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.startupEditor": "none",
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
@@ -28,9 +28,7 @@
   "github.copilot.enable": {
     "*": false
   },
-  "workbench.settings.applyToAllProfiles": [
-    "terminal.integrated.suggest.enabled"
-  ],
+  "workbench.settings.applyToAllProfiles": ["terminal.integrated.suggest.enabled"],
   "settingsSync.ignoredExtensions": ["iwyvi.chinolor"],
   "terminal.integrated.env.windows": {},
   "console-ninja.featureSet": "Community",
