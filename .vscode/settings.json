@@ -1,46 +1,167 @@
 {
+  "workbench.editor.showBinaryFileWarning": false,
+  "update.mode": "none",
   "chat.commandCenter.enabled": false,
-  "workbench.layoutControl.enabled": false,
-  "workbench.navigationControl.enabled": false,
-  "window.commandCenter": false,
-  "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.startupEditor": "none",
-  "editor.minimap.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.tabSize": 2,
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
+
   "[sql]": {
-    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
   },
+
   "explorer.confirmPasteNative": false,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "window.menuBarVisibility": "compact",
-  "terminal.integrated.tabs.enabled": true,
+  "window.menuBarVisibility": "hidden",
+
+  "workbench.colorCustomizations": {
+    "terminal.ansiMagenta": "#dc5a8c",
+  },
+
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiMagenta",
+  "terminal.integrated.tabs.defaultIcon": "terminal-tmux",
   "task.allowAutomaticTasks": "on",
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "terminal.integrated.copyOnSelection": true,
+
   "github.copilot.enable": {
-    "*": false
+    "*": false,
   },
+
   "workbench.settings.applyToAllProfiles": ["terminal.integrated.suggest.enabled"],
+
   "settingsSync.ignoredExtensions": ["iwyvi.chinolor"],
+
   "terminal.integrated.env.windows": {},
   "console-ninja.featureSet": "Community",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "prettier.enableDebugLogs": true,
+
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "ms-python.black-formatter",
   },
-  "workbench.statusBar.visible": false,
   "workbench.activityBar.location": "hidden",
   "turboConsoleLog.delimiterInsideMessage": "-",
-  "turboConsoleLog.logMessagePrefix": "🟧",
+  "turboConsoleLog.logMessagePrefix": "🟥",
+  "window.newWindowDimensions": "maximized",
+  "window.confirmSaveUntitledWorkspace": false,
+  "diffEditor.renderSideBySide": false,
+  "git.openRepositoryInParentFolders": "never",
+
+  "better-todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "foreground": "#ffffff",
+      "background": "#06a5b1",
+      "type": "text",
+    },
+    "FIXME": {
+      "foreground": "#000000",
+      "background": "#f3c600",
+      "type": "text",
+    },
+  },
+  "better-todo-tree.regex.regexCaseSensitive": false,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "chat.mcp.autostart": "never",
+  "chat.mcp.serverSampling": {},
+  "accessibility.verbosity.inlineChat": false,
+
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "ms-settings",
+  ],
+
+  "prettier.printWidth": 100,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.autohide": "mouseover",
+  "editor.minimap.maxColumn": 115,
+  "editor.lineHeight": 1.5,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "debug.console.lineHeight": 1.5,
+  "terminal.integrated.lineHeight": 1.2,
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "window.border": "off",
+  "window.commandCenter": false,
+  "editor.minimap.side": "left",
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.suggest.enabled": false,
+
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": false,
+
+  "darkpdf.default.colorMode": false,
+  "terminal.integrated.initialHint": false,
+  "editor.minimap.scale": 2,
+
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.pdf": "pdf.viewer",
+    "*.md": "default",
+  },
+  "extensions.ignoreRecommendations": true,
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
+  "todo-tree.regex.regexCaseSensitive": true,
+  "editor.wordWrapColumn": 110,
+  "editor.formatOnSave": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "chat.viewWelcome.enabled": false,
+  "chat.location": "editor",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.statusBar.visible": false,
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]* archival)[\"'`]"],
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+  ],
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascriptreact",
+    "typescriptreact": "javascriptreact",
+  },
+  "editor.quickSuggestions": {
+    "strings": "on",
+  },
+  "files.autoSave": "onWindowChange",
+  "files.autoSaveWorkspaceFilesOnly": true,
+  "editor.cursorStyle": "block",
+  // "background.fullscreen": {
+  //   "images": [
+  //     // "file:///C:/tree/images/wallpaper-bank/photography/Japan/urban/day/pink_flags_white_trees2.jpg",
+  //   ],
+  //   "opacity": 0.096,
+  //   "size": "cover",
+  //   "position": "center",
+  // },
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "accessibility.verboseChatProgressUpdates": false,
+  "terminal.integrated.enablePersistentSessions": false,
+  "chat.viewSessions.orientation": "stacked",
+  "typescript.validate.enable": true,
+  "files.exclude": {
+    "**/.git": false,
+  },
   "workbench.colorTheme": "Alabaster Dark",
-  "window.newWindowDimensions": "maximized"
+  "workbench.iconTheme": "material-icon-theme",
+  "helium-icon-theme.folders.theme": "none",
+  "material-icon-theme.folders.theme": "none",
+  "pop-icon-theme.showWelcomeMessage": false,
+  "helium-icon-theme.showWelcomeMessage": false,
+  "editor.tabCompletion": "onlySnippets",
+  "workbench.productIconTheme": "icons-carbon",
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  // "editor.showUnused": true,
+  // "chat.editor.fontSize": 14,
 }
