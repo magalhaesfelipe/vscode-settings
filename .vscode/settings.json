@@ -1,24 +1,18 @@
 {
-  "workbench.editor.showBinaryFileWarning": false,
   "update.mode": "none",
-  "chat.commandCenter.enabled": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.startupEditor": "none",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
   "explorer.confirmDelete": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
 
-  "[sql]": {
-    "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
-  },
-
   "explorer.confirmPasteNative": false,
-  "window.menuBarVisibility": "hidden",
+  "window.menuBarVisibility": "toggle",
 
   "workbench.colorCustomizations": {
-    "terminal.ansiMagenta": "#dc5a8c",
+    "terminal.ansiMagenta": "#dc5a8c"
   },
 
   "terminal.integrated.tabs.defaultColor": "terminal.ansiMagenta",
@@ -28,7 +22,7 @@
   "terminal.integrated.copyOnSelection": true,
 
   "github.copilot.enable": {
-    "*": false,
+    "*": false
   },
 
   "workbench.settings.applyToAllProfiles": ["terminal.integrated.suggest.enabled"],
@@ -37,12 +31,10 @@
 
   "terminal.integrated.env.windows": {},
   "console-ninja.featureSet": "Community",
-  "typescript.updateImportsOnFileMove.enabled": "always",
 
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "workbench.activityBar.location": "hidden",
   "turboConsoleLog.delimiterInsideMessage": "-",
   "turboConsoleLog.logMessagePrefix": "🟥",
   "window.newWindowDimensions": "maximized",
@@ -50,18 +42,20 @@
   "diffEditor.renderSideBySide": false,
   "git.openRepositoryInParentFolders": "never",
 
+  // Better todo tree
   "better-todo-tree.highlights.customHighlight": {
     "TODO": {
       "foreground": "#ffffff",
       "background": "#06a5b1",
-      "type": "text",
+      "type": "text"
     },
     "FIXME": {
       "foreground": "#000000",
       "background": "#f3c600",
-      "type": "text",
-    },
+      "type": "text"
+    }
   },
+  "better-todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
   "better-todo-tree.regex.regexCaseSensitive": false,
   "editor.detectIndentation": false,
   "editor.tabSize": 2,
@@ -76,7 +70,7 @@
     "mailto",
     "vscode",
     "vscode-insiders",
-    "ms-settings",
+    "ms-settings"
   ],
 
   "prettier.printWidth": 100,
@@ -102,36 +96,31 @@
   "security.workspace.trust.untrustedFiles": "open",
   "security.workspace.trust.enabled": false,
 
-  "darkpdf.default.colorMode": false,
   "terminal.integrated.initialHint": false,
   "editor.minimap.scale": 2,
 
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
-    "*.pdf": "pdf.viewer",
-    "*.md": "default",
+    "*.pdf": "default",
+    "*.md": "default"
   },
   "extensions.ignoreRecommendations": true,
-  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
-  "todo-tree.regex.regexCaseSensitive": true,
   "editor.wordWrapColumn": 110,
   "editor.formatOnSave": true,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "chat.viewWelcome.enabled": false,
-  "chat.location": "editor",
   "workbench.editor.empty.hint": "hidden",
   "workbench.statusBar.visible": false,
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]* archival)[\"'`]"],
-    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
   ],
   "tailwindCSS.includeLanguages": {
     "typescript": "javascriptreact",
-    "typescriptreact": "javascriptreact",
+    "typescriptreact": "javascriptreact"
   },
   "editor.quickSuggestions": {
-    "strings": "on",
+    "strings": "on"
   },
   "files.autoSave": "onWindowChange",
   "files.autoSaveWorkspaceFilesOnly": true,
@@ -144,24 +133,22 @@
   //   "size": "cover",
   //   "position": "center",
   // },
-  "javascript.preferences.importModuleSpecifier": "relative",
-  "typescript.preferences.importModuleSpecifier": "relative",
+  "js/ts.preferences.importModuleSpecifier": "relative",
   "accessibility.verboseChatProgressUpdates": false,
   "terminal.integrated.enablePersistentSessions": false,
   "chat.viewSessions.orientation": "stacked",
-  "typescript.validate.enable": true,
   "files.exclude": {
-    "**/.git": false,
+    "**/.git": false
   },
   "workbench.colorTheme": "Alabaster Dark",
-  "workbench.iconTheme": "material-icon-theme",
-  "helium-icon-theme.folders.theme": "none",
+  "workbench.iconTheme": "file-icons",
   "material-icon-theme.folders.theme": "none",
-  "pop-icon-theme.showWelcomeMessage": false,
-  "helium-icon-theme.showWelcomeMessage": false,
   "editor.tabCompletion": "onlySnippets",
   "workbench.productIconTheme": "icons-carbon",
   "chat.titleBar.openInAgentsWindow.enabled": false,
-  // "editor.showUnused": true,
-  // "chat.editor.fontSize": 14,
+  "editor.lineNumbers": "interval",
+
+  // Code Spell:
+  "cSpell.language": "en,pt,pt_BR",
+  "workbench.activityBar.location": "hidden"
 }
