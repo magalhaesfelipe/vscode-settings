@@ -150,5 +150,14 @@
 
   // Code Spell:
   "cSpell.language": "en,pt,pt_BR",
+  "cSpell.enabledFileTypes": {
+    "*": false,
+    "javascript": true,
+    "javascriptreact": true,
+    "typescript": true,
+    "typescriptreact": true,
+    "markdown": true,
+    "plaintext": true
+  },
   "workbench.activityBar.location": "hidden"
 }
