@@ -122,7 +122,6 @@
   "editor.quickSuggestions": {
     "strings": "on"
   },
-  "files.autoSave": "onWindowChange",
   "files.autoSaveWorkspaceFilesOnly": true,
   "editor.cursorStyle": "block",
   // "background.fullscreen": {
@@ -140,16 +139,17 @@
   "files.exclude": {
     "**/.git": false
   },
-  "workbench.colorTheme": "Alabaster Dark",
+  "workbench.colorTheme": "toge",
   "workbench.iconTheme": "file-icons",
   "material-icon-theme.folders.theme": "none",
   "editor.tabCompletion": "onlySnippets",
   "workbench.productIconTheme": "icons-carbon",
   "chat.titleBar.openInAgentsWindow.enabled": false,
   "editor.lineNumbers": "interval",
+  "workbench.activityBar.location": "hidden",
 
   // Code Spell:
-  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.language": "en,en_GB,pt,pt_BR",
   "cSpell.enabledFileTypes": {
     "*": false,
     "javascript": true,
@@ -159,5 +159,5 @@
     "markdown": true,
     "plaintext": true
   },
-  "workbench.activityBar.location": "hidden"
+  "cSpell.ignoreRegExpList": ["/(?:from\\s+|import\\s+)[\"'][^\"']+[\"']/g"]
 }
