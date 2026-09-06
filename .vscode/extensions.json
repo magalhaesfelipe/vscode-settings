@@ -2,6 +2,7 @@
   "recommendations": [
     "antfu.iconify",
     "antfu.icons-carbon",
+    "antfu.smart-clicks",
     "antfu.theme-vitesse",
     "bradlc.vscode-tailwindcss",
     "chakrounanas.turbo-console-log",
@@ -11,6 +12,7 @@
     "esbenp.prettier-vscode",
     "fabiospampinato.vscode-monokai-night",
     "fanaticpythoner.better-todo-tree",
+    "felipemagalhaes.toge",
     "file-icons.file-icons",
     "lao-liang.vscode-theme-alabaster-dark",
     "leizongmin.node-module-intellisense",
