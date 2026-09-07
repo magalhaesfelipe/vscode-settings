@@ -13,7 +13,7 @@
 
   "workbench.colorCustomizations": {
     "terminal.ansiMagenta": "#dc5a8c",
-    "terminal.ansiGreen": "#4ab888",
+    "terminal.ansiGreen": "#4ab888"
   },
 
   "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
@@ -23,7 +23,7 @@
   "terminal.integrated.copyOnSelection": true,
 
   "github.copilot.enable": {
-    "*": false,
+    "*": false
   },
 
   "workbench.settings.applyToAllProfiles": ["terminal.integrated.suggest.enabled"],
@@ -34,10 +34,10 @@
   "console-ninja.featureSet": "Community",
 
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "turboConsoleLog.delimiterInsideMessage": "-",
-  "turboConsoleLog.logMessagePrefix": "🟥",
+  "turboConsoleLog.logMessagePrefix": "🐟",
   "window.newWindowDimensions": "maximized",
   "window.confirmSaveUntitledWorkspace": false,
   "diffEditor.renderSideBySide": false,
@@ -48,13 +48,13 @@
     "TODO": {
       "foreground": "#ffffff",
       "background": "#06a5b1",
-      "type": "text",
+      "type": "text"
     },
     "FIXME": {
       "foreground": "#000000",
       "background": "#f3c600",
-      "type": "text",
-    },
+      "type": "text"
+    }
   },
   "better-todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
   "better-todo-tree.regex.regexCaseSensitive": false,
@@ -71,7 +71,7 @@
     "mailto",
     "vscode",
     "vscode-insiders",
-    "ms-settings",
+    "ms-settings"
   ],
 
   "prettier.printWidth": 100,
@@ -103,7 +103,7 @@
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
     "*.pdf": "default",
-    "*.md": "default",
+    "*.md": "default"
   },
   "extensions.ignoreRecommendations": true,
   "editor.wordWrapColumn": 110,
@@ -114,14 +114,14 @@
   "workbench.statusBar.visible": false,
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]* archival)[\"'`]"],
-    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
   ],
   "tailwindCSS.includeLanguages": {
     "typescript": "javascriptreact",
-    "typescriptreact": "javascriptreact",
+    "typescriptreact": "javascriptreact"
   },
   "editor.quickSuggestions": {
-    "strings": "on",
+    "strings": "on"
   },
   "files.autoSaveWorkspaceFilesOnly": true,
   "editor.cursorStyle": "block",
@@ -138,9 +138,8 @@
   "terminal.integrated.enablePersistentSessions": false,
   "chat.viewSessions.orientation": "stacked",
   "files.exclude": {
-    "**/.git": false,
+    "**/.git": false
   },
-  "workbench.colorTheme": "toge",
   "workbench.iconTheme": "file-icons",
   "material-icon-theme.folders.theme": "none",
   "editor.tabCompletion": "onlySnippets",
@@ -158,7 +157,8 @@
     "typescript": true,
     "typescriptreact": true,
     "markdown": true,
-    "plaintext": true,
+    "plaintext": true
   },
   "cSpell.ignoreRegExpList": ["/(?:from\\s+|import\\s+)[\"'][^\"']+[\"']/g"],
+  "workbench.colorTheme": "Toge 2"
 }
