@@ -1,0 +1,2 @@
+# List all extensions inside the property `recommendations` within an object, in JSON format
+printf '{\n  "recommendations": [\n'; code --list-extensions | sed 's/.*/    "&",/'; printf '  ]\n}\n'
