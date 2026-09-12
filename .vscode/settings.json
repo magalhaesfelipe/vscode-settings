@@ -9,7 +9,7 @@
   "explorer.confirmDragAndDrop": false,
 
   "explorer.confirmPasteNative": false,
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "hidden",
 
   "workbench.colorCustomizations": {
     "terminal.ansiMagenta": "#dc5a8c",
@@ -148,17 +148,69 @@
   "editor.lineNumbers": "interval",
   "workbench.activityBar.location": "hidden",
 
-  // Code Spell:
-  "cSpell.language": "en,en_GB,pt,pt_BR",
-  "cSpell.enabledFileTypes": {
-    "*": false,
-    "javascript": true,
-    "javascriptreact": true,
-    "typescript": true,
-    "typescriptreact": true,
-    "markdown": true,
-    "plaintext": true
-  },
-  "cSpell.ignoreRegExpList": ["/(?:from\\s+|import\\s+)[\"'][^\"']+[\"']/g"],
-  "workbench.colorTheme": "Toge 2"
+  // // Code Spell:
+  // "cSpell.language": "en,en_GB,pt,pt_BR",
+  // "cSpell.enabledFileTypes": {
+  //   "*": false,
+  //   "javascript": true,
+  //   "javascriptreact": true,
+  //   "typescript": true,
+  //   "typescriptreact": true,
+  //   "markdown": true,
+  //   "plaintext": true,
+  // },
+  // "cSpell.ignoreRegExpList": ["/(?:from\\s+|import\\s+)[\"'][^\"']+[\"']/g"],
+
+  "workbench.colorTheme": "Toge 2",
+
+  // W3C Color Toolkit
+  "w3cColorToolkit.highlight": "background",
+  "w3cColorToolkit.info": true,
+  "w3cColorToolkit.advanced": {
+    "disable.maxFileSizeMb": 0.3,
+    "disable.fileNames": ["*.min.*", "*.map"],
+    "disable.languageIds": ["log", "plaintext"],
+    "highlight.markRuler": false, // This shows the colors in the scrollbar
+    "highlight.matchWords": "css-like",
+    "highlight.hexAlphaOrder": "rgba",
+    "highlight.maxMatchesPerDocument": 600,
+    "highlight.hdrToneMapping": "reinhard",
+    "colorPicker.mode": "dedupe",
+    "colorPicker.dedupeLanguages": [],
+    "fields.enabled": null,
+    "fields.excluded": [],
+    "info.previewSize": "small",
+    "info.previewShape": "rectangle",
+    "info.showDiagnostics": true,
+    "info.showSpecLevel": true,
+    "convert.enabled": true,
+    "convert.alphaLoss": "reject",
+    "convert.missingComponentLoss": "confirm",
+    "convert.namedColorFallback": "reject",
+    "convert.recentFirst": true,
+    "output.gamutMapping": "css",
+    "output.hexCase": "lower",
+    "scan.comments": true,
+    "scan.strings": true,
+    "contextualPreview": "auto",
+    "variables.resolve": true,
+    "variables.lookupGlobs": ["**/*.{css,scss,sass,less}"],
+    "variables.maxIndexedFiles": 2000,
+    "variables.languageIds": [
+      "css",
+      "scss",
+      "sass",
+      "less",
+      "postcss",
+      "tailwindcss",
+      "typescriptreact",
+      "javascriptreact",
+      "typescript",
+      "javascript"
+    ],
+    "variables.maxResolveDepth": 20,
+    "experimental.hdrAssumedHeadroom": 0,
+    "coexistence.notify": true,
+    "logLevel": "warn"
+  }
 }
