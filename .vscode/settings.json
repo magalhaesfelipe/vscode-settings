@@ -30,7 +30,9 @@
 
   "settingsSync.ignoredExtensions": ["iwyvi.chinolor"],
 
-  "terminal.integrated.env.windows": {},
+  "terminal.integrated.env.windows": {
+    "MSYS": "disable_pcon"
+  },
   "console-ninja.featureSet": "Community",
 
   "[python]": {
@@ -140,13 +142,11 @@
   "files.exclude": {
     "**/.git": false
   },
-  "workbench.iconTheme": "file-icons",
   "material-icon-theme.folders.theme": "none",
   "editor.tabCompletion": "onlySnippets",
   "workbench.productIconTheme": "icons-carbon",
   "chat.titleBar.openInAgentsWindow.enabled": false,
   "editor.lineNumbers": "interval",
-  "workbench.activityBar.location": "hidden",
 
   // // Code Spell:
   // "cSpell.language": "en,en_GB,pt,pt_BR",
@@ -162,6 +162,9 @@
   // "cSpell.ignoreRegExpList": ["/(?:from\\s+|import\\s+)[\"'][^\"']+[\"']/g"],
 
   "workbench.colorTheme": "Toge 2",
+  "files.associations": {
+    "*.micro": "css"
+  },
 
   // W3C Color Toolkit
   "w3cColorToolkit.highlight": "background",
@@ -194,7 +197,7 @@
     "scan.strings": true,
     "contextualPreview": "auto",
     "variables.resolve": true,
-    "variables.lookupGlobs": ["**/*.{css,scss,sass,less}"],
+    "variables.lookupGlobs": ["**/*.{css,scss,sass,less,typescriptreact,javascriptreact}"],
     "variables.maxIndexedFiles": 2000,
     "variables.languageIds": [
       "css",
@@ -212,5 +215,9 @@
     "experimental.hdrAssumedHeadroom": 0,
     "coexistence.notify": true,
     "logLevel": "warn"
-  }
+  },
+  "workbench.experimental.modernUI": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.iconTheme": "file-icons",
+  "editor.minimap.renderCharacters": true
 }
