@@ -1,71 +1,117 @@
 {
-  "update.mode": "none",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "workbench.startupEditor": "none",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "notebook.defaultFormatter": "esbenp.prettier-vscode",
-  "explorer.confirmDelete": false,
-  "js/ts.updateImportsOnFileMove.enabled": "always",
-  "explorer.confirmDragAndDrop": false,
-
-  "explorer.confirmPasteNative": false,
-  "window.menuBarVisibility": "hidden",
-
-  "workbench.colorCustomizations": {
-    "terminal.ansiMagenta": "#dc5a8c",
-    "terminal.ansiGreen": "#4ab888"
-  },
-
-  "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
-  "terminal.integrated.tabs.defaultIcon": "terminal-tmux",
-  "task.allowAutomaticTasks": "on",
-  "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "terminal.integrated.copyOnSelection": true,
-
-  "github.copilot.enable": {
-    "*": false
-  },
-
-  "workbench.settings.applyToAllProfiles": ["terminal.integrated.suggest.enabled"],
-
-  "settingsSync.ignoredExtensions": ["iwyvi.chinolor"],
-
-  "terminal.integrated.env.windows": {
-    "MSYS": "disable_pcon"
-  },
-  "console-ninja.featureSet": "Community",
-
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "ms-python.black-formatter",
   },
-  "turboConsoleLog.delimiterInsideMessage": "-",
-  "turboConsoleLog.logMessagePrefix": "🐟",
-  "window.newWindowDimensions": "maximized",
-  "window.confirmSaveUntitledWorkspace": false,
-  "diffEditor.renderSideBySide": false,
-  "git.openRepositoryInParentFolders": "never",
+
+  "accessibility.verbosity.inlineChat": false,
+  "accessibility.verboseChatProgressUpdates": false,
 
   // Better todo tree
+  "better-todo-tree.regex.regexCaseSensitive": false,
+  "better-todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]", "[]"],
   "better-todo-tree.highlights.customHighlight": {
     "TODO": {
       "foreground": "#ffffff",
       "background": "#06a5b1",
-      "type": "text"
+      "type": "text",
     },
     "FIXME": {
       "foreground": "#000000",
       "background": "#f3c600",
-      "type": "text"
-    }
+      "type": "text",
+    },
+    "[]": { "background": "#ff000080" },
+    "[ ]": { "background": "#d11d1dc2" },
+    "[x]": { "background": "#00ff0080" },
   },
-  "better-todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
-  "better-todo-tree.regex.regexCaseSensitive": false,
-  "editor.detectIndentation": false,
-  "editor.tabSize": 2,
+
+  "extensions.ignoreRecommendations": true,
+
+  // EXPLORER
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+
+  "console-ninja.featureSet": "Community",
+
+  // CHAT
   "chat.mcp.autostart": "never",
   "chat.mcp.serverSampling": {},
-  "accessibility.verbosity.inlineChat": false,
+  "chat.viewSessions.orientation": "stacked",
+  "chat.titleBar.openInAgentsWindow.enabled": false,
 
+  "debug.console.lineHeight": 1.5,
+
+  "diffEditor.renderSideBySide": false,
+
+  // EDITOR
+  "editor.minimap.renderCharacters": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.lineHeight": 1.5,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.autohide": "mouseover",
+  "editor.minimap.maxColumn": 115,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.side": "left",
+  "editor.minimap.scale": 2,
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 110,
+  "editor.tabCompletion": "onlySnippets",
+  "editor.lineNumbers": "interval",
+  "editor.cursorStyle": "block",
+  "editor.quickSuggestions": {
+    "strings": "on",
+  },
+
+  // FILES
+  "files.autoSaveWorkspaceFilesOnly": true,
+  "files.associations": {
+    "*.micro": "css",
+  },
+  "files.exclude": {
+    "**/.git": false,
+  },
+
+  // GIT/GITHUB
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.enable": {
+    "*": false,
+  },
+
+  // JS/TS
+  "js/ts.preferences.importModuleSpecifier": "relative",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+
+  "material-icon-theme.folders.theme": "none",
+
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+
+  "prettier.printWidth": 100,
+
+  // SECURITY
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": false,
+
+  "settingsSync.ignoredExtensions": ["iwyvi.chinolor"],
+
+  // TASK
+  "task.allowAutomaticTasks": "on",
+
+  // TERMINAL
+  "terminal.integrated.initialHint": false,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.suggest.enabled": false,
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+  "terminal.integrated.tabs.defaultIcon": "terminal-tmux",
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.allowedLinkSchemes": [
     "file",
     "http",
@@ -73,97 +119,59 @@
     "mailto",
     "vscode",
     "vscode-insiders",
-    "ms-settings"
+    "ms-settings",
+  ],
+  "terminal.integrated.env.windows": {
+    "MSYS": "disable_pcon",
+  },
+
+  "turboConsoleLog.delimiterInsideMessage": "-",
+  "turboConsoleLog.logMessagePrefix": "🐟",
+
+  // TAILWIND
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascriptreact",
+    "typescriptreact": "javascriptreact",
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]* archival)[\"'`]"],
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
   ],
 
-  "prettier.printWidth": 100,
-  "editor.minimap.showSlider": "always",
-  "editor.minimap.autohide": "mouseover",
-  "editor.minimap.maxColumn": 115,
-  "editor.lineHeight": 1.5,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "debug.console.lineHeight": 1.5,
-  "terminal.integrated.lineHeight": 1.2,
-  "workbench.layoutControl.enabled": false,
-  "workbench.navigationControl.enabled": false,
+  "update.mode": "none",
+
+  // WINDOW
+  "window.newWindowDimensions": "maximized",
+  "window.confirmSaveUntitledWorkspace": false,
+  "window.menuBarVisibility": "hidden",
   "window.border": "off",
   "window.commandCenter": false,
-  "editor.minimap.side": "left",
-  "workbench.sideBar.location": "right",
-  "terminal.integrated.tabs.location": "left",
-  "terminal.integrated.suggest.enabled": false,
 
-  "security.workspace.trust.banner": "never",
-  "security.workspace.trust.startupPrompt": "never",
-  "security.workspace.trust.untrustedFiles": "open",
-  "security.workspace.trust.enabled": false,
-
-  "terminal.integrated.initialHint": false,
-  "editor.minimap.scale": 2,
-
-  "workbench.editorAssociations": {
-    "*.copilotmd": "vscode.markdown.preview.editor",
-    "*.pdf": "default",
-    "*.md": "default"
-  },
-  "extensions.ignoreRecommendations": true,
-  "editor.wordWrapColumn": 110,
-  "editor.formatOnSave": true,
+  // WORKBENCH
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.useModal": "off",
   "workbench.statusBar.visible": false,
-  "tailwindCSS.experimental.classRegex": [
-    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]* archival)[\"'`]"],
-    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-  ],
-  "tailwindCSS.includeLanguages": {
-    "typescript": "javascriptreact",
-    "typescriptreact": "javascriptreact"
-  },
-  "editor.quickSuggestions": {
-    "strings": "on"
-  },
-  "files.autoSaveWorkspaceFilesOnly": true,
-  "editor.cursorStyle": "block",
-  // "background.fullscreen": {
-  //   "images": [
-  //     // "file:///C:/tree/images/wallpaper-bank/photography/Japan/urban/day/pink_flags_white_trees2.jpg",
-  //   ],
-  //   "opacity": 0.096,
-  //   "size": "cover",
-  //   "position": "center",
-  // },
-  "js/ts.preferences.importModuleSpecifier": "relative",
-  "accessibility.verboseChatProgressUpdates": false,
-  "terminal.integrated.enablePersistentSessions": false,
-  "chat.viewSessions.orientation": "stacked",
-  "files.exclude": {
-    "**/.git": false
-  },
-  "material-icon-theme.folders.theme": "none",
-  "editor.tabCompletion": "onlySnippets",
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "workbench.sideBar.location": "right",
   "workbench.productIconTheme": "icons-carbon",
-  "chat.titleBar.openInAgentsWindow.enabled": false,
-  "editor.lineNumbers": "interval",
-
-  // // Code Spell:
-  // "cSpell.language": "en,en_GB,pt,pt_BR",
-  // "cSpell.enabledFileTypes": {
-  //   "*": false,
-  //   "javascript": true,
-  //   "javascriptreact": true,
-  //   "typescript": true,
-  //   "typescriptreact": true,
-  //   "markdown": true,
-  //   "plaintext": true,
-  // },
-  // "cSpell.ignoreRegExpList": ["/(?:from\\s+|import\\s+)[\"'][^\"']+[\"']/g"],
-
   "workbench.colorTheme": "Toge 2",
-  "files.associations": {
-    "*.micro": "css"
+  "workbench.experimental.modernUI": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.iconTheme": "file-icons",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.settings.applyToAllProfiles": ["terminal.integrated.suggest.enabled"],
+  "workbench.startupEditor": "none",
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.pdf": "default",
+    "*.md": "default",
+  },
+  "workbench.colorCustomizations": {
+    "terminal.ansiMagenta": "#dc5a8c",
+    "terminal.ansiGreen": "#4ab888",
   },
 
   // W3C Color Toolkit
@@ -197,8 +205,12 @@
     "scan.strings": true,
     "contextualPreview": "auto",
     "variables.resolve": true,
-    "variables.lookupGlobs": ["**/*.{css,scss,sass,less,typescriptreact,javascriptreact}"],
     "variables.maxIndexedFiles": 2000,
+    "variables.maxResolveDepth": 20,
+    "experimental.hdrAssumedHeadroom": 0,
+    "coexistence.notify": true,
+    "logLevel": "warn",
+    "variables.lookupGlobs": ["**/*.{css,scss,sass,less,typescriptreact,javascriptreact}"],
     "variables.languageIds": [
       "css",
       "scss",
@@ -209,15 +221,30 @@
       "typescriptreact",
       "javascriptreact",
       "typescript",
-      "javascript"
+      "javascript",
     ],
-    "variables.maxResolveDepth": 20,
-    "experimental.hdrAssumedHeadroom": 0,
-    "coexistence.notify": true,
-    "logLevel": "warn"
   },
-  "workbench.experimental.modernUI": false,
-  "workbench.activityBar.location": "hidden",
-  "workbench.iconTheme": "file-icons",
-  "editor.minimap.renderCharacters": true
+
+  // BACKGROUND
+  // "background.fullscreen": {
+  //   "images": [
+  //     // "file:///C:/tree/images/wallpaper-bank/photography/Japan/urban/day/pink_flags_white_trees2.jpg",
+  //   ],
+  //   "opacity": 0.096,
+  //   "size": "cover",
+  //   "position": "center",
+  // },
+
+  // // CODE SPELL:
+  // "cSpell.language": "en,en_GB,pt,pt_BR",
+  // "cSpell.enabledFileTypes": {
+  //   "*": false,
+  //   "javascript": true,
+  //   "javascriptreact": true,
+  //   "typescript": true,
+  //   "typescriptreact": true,
+  //   "markdown": true,
+  //   "plaintext": true,
+  // },
+  // "cSpell.ignoreRegExpList": ["/(?:from\\s+|import\\s+)[\"'][^\"']+[\"']/g"],
 }
