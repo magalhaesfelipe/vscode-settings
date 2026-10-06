@@ -1,6 +1,6 @@
 {
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "ms-python.black-formatter",
   },
 
   "accessibility.verbosity.inlineChat": false,
@@ -13,16 +13,16 @@
     "TODO": {
       "foreground": "#ffffff",
       "background": "#06a5b1",
-      "type": "text"
+      "type": "text",
     },
     "FIXME": {
       "foreground": "#000000",
       "background": "#f3c600",
-      "type": "text"
+      "type": "text",
     },
     "[ ]": { "background": "#4bb4c2c2" },
     "XXX": { "background": "#4bb4c2c2" },
-    "[x]": { "background": "#4fc24bc2" }
+    "[x]": { "background": "#4fc24bc2" },
   },
 
   "extensions.ignoreRecommendations": true,
@@ -63,22 +63,22 @@
   "editor.lineNumbers": "interval",
   "editor.cursorStyle": "block",
   "editor.quickSuggestions": {
-    "strings": "on"
+    "strings": "on",
   },
 
   // FILES
   "files.autoSaveWorkspaceFilesOnly": true,
   "files.associations": {
-    "*.micro": "css"
+    "*.micro": "css",
   },
   "files.exclude": {
-    "**/.git": false
+    "**/.git": false,
   },
 
   // GIT/GITHUB
   "git.openRepositoryInParentFolders": "never",
   "github.copilot.enable": {
-    "*": false
+    "*": false,
   },
 
   // JS/TS
@@ -119,10 +119,10 @@
     "mailto",
     "vscode",
     "vscode-insiders",
-    "ms-settings"
+    "ms-settings",
   ],
   "terminal.integrated.env.windows": {
-    "MSYS": "disable_pcon"
+    "MSYS": "disable_pcon",
   },
 
   "turboConsoleLog.delimiterInsideMessage": "-",
@@ -131,11 +131,11 @@
   // TAILWIND
   "tailwindCSS.includeLanguages": {
     "typescript": "javascriptreact",
-    "typescriptreact": "javascriptreact"
+    "typescriptreact": "javascriptreact",
   },
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]* archival)[\"'`]"],
-    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
   ],
 
   "update.mode": "none",
@@ -167,11 +167,11 @@
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
     "*.pdf": "default",
-    "*.md": "default"
+    "*.md": "default",
   },
   "workbench.colorCustomizations": {
     "terminal.ansiMagenta": "#dc5a8c",
-    "terminal.ansiGreen": "#4ab888"
+    "terminal.ansiGreen": "#4ab888",
   },
 
   // W3C Color Toolkit
@@ -221,9 +221,9 @@
       "typescriptreact",
       "javascriptreact",
       "typescript",
-      "javascript"
-    ]
-  }
+      "javascript",
+    ],
+  },
 
   // BACKGROUND
   // "background.fullscreen": {
