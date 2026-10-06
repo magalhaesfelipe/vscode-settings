@@ -20,9 +20,9 @@
       "background": "#f3c600",
       "type": "text",
     },
-    "[ ]": { "background": "#4bb4c2c2" },
+    "[ ]": { "background": "#c24b4bc2" },
     "XXX": { "background": "#4bb4c2c2" },
-    "[x]": { "background": "#4fc24bc2" },
+    "[x]": { "background": "#57c254c2" },
   },
 
   "extensions.ignoreRecommendations": true,
