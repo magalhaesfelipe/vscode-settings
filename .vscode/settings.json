@@ -1,4 +1,16 @@
 {
+  // GO
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+  },
+  "[go:mod]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true,
+  },
+
+  // PYTHON
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
   },
@@ -224,6 +236,8 @@
       "javascript",
     ],
   },
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "editor.minimap.enabled": false,
 
   // BACKGROUND
   // "background.fullscreen": {
