@@ -18,6 +18,10 @@
   "accessibility.verbosity.inlineChat": false,
   "accessibility.verboseChatProgressUpdates": false,
 
+  // BACKGROUND - katsute
+  "background.windowBackgrounds": ["c:/tree/images/wallpapers/organize/ai-digital/ㅤ.png"],
+  "background.backgroundOpacity": [0.1, 0.2, 0.1, 0.1],
+
   // BETTER TODO-TREE
   "better-todo-tree.regex.regexCaseSensitive": false,
   "better-todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
@@ -109,6 +113,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "security.workspace.trust.enabled": false,
 
+  "security.allowedUNCHosts": ["wsl.localhost"],
   "settingsSync.ignoredExtensions": ["iwyvi.chinolor"],
 
   // TASK
@@ -236,18 +241,6 @@
       "javascript",
     ],
   },
-  "security.allowedUNCHosts": ["wsl.localhost"],
-  "editor.minimap.enabled": false,
-
-  // BACKGROUND
-  // "background.fullscreen": {
-  //   "images": [
-  //     // "file:///C:/tree/images/wallpaper-bank/photography/Japan/urban/day/pink_flags_white_trees2.jpg",
-  //   ],
-  //   "opacity": 0.096,
-  //   "size": "cover",
-  //   "position": "center",
-  // },
 
   // // CODE SPELL:
   // "cSpell.language": "en,en_GB,pt,pt_BR",
