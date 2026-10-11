@@ -1,4 +1,5 @@
 2guys1account.quackrack-cursor
+adpyke.vscode-sql-formatter
 antfu.iconify
 antfu.icons-carbon
 antfu.smart-clicks
@@ -9,12 +10,14 @@ cweijan.vscode-office
 dbaeumer.vscode-eslint
 divyanshuagrawal.competitive-programming-helper
 esbenp.prettier-vscode
-fabiospampinato.vscode-monokai-night
 fanaticpythoner.better-todo-tree
 felipemagalhaes.toge
 file-icons.file-icons
 fullstacklabxd.matcha-ceremony-theme
+golang.go
 heavensky.w3c-color-toolkit
+katsute.code-background
+kiritocode1.blank-theme
 lao-liang.vscode-theme-alabaster-dark
 leizongmin.node-module-intellisense
 mhutchie.git-graph
@@ -22,7 +25,6 @@ ms-python.black-formatter
 ms-python.python
 necosawa.matchaneco
 pkief.material-icon-theme
-radhakantaroy.vs-color-preview
 seyyedkhandon.firacode
 streetsidesoftware.code-spell-checker
 streetsidesoftware.code-spell-checker-portuguese-brazilian
