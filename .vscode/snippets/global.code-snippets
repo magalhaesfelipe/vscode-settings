@@ -5,5 +5,12 @@
       "console.log($1);"
     ],
     "description": "Insert console.log"
+  },
+  "Todo": {
+	"prefix": "td",
+	"body": [
+	  "[ ] $1"
+	],
+	"description": "Insert [ ]"
   }
 }
