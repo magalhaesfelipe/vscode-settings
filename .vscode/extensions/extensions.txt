@@ -1,5 +1,4 @@
 2guys1account.quackrack-cursor
-adpyke.vscode-sql-formatter
 antfu.iconify
 antfu.icons-carbon
 antfu.smart-clicks
@@ -11,6 +10,7 @@ dbaeumer.vscode-eslint
 divyanshuagrawal.competitive-programming-helper
 esbenp.prettier-vscode
 fanaticpythoner.better-todo-tree
+felipemagalhaes.scrolllock-cursor
 felipemagalhaes.toge
 file-icons.file-icons
 fullstacklabxd.matcha-ceremony-theme
@@ -23,6 +23,7 @@ leizongmin.node-module-intellisense
 mhutchie.git-graph
 ms-python.black-formatter
 ms-python.python
+narasimapandiyan.jetbrainsmono
 necosawa.matchaneco
 pkief.material-icon-theme
 seyyedkhandon.firacode
