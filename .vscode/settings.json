@@ -51,6 +51,8 @@
 		"[x]": { "background": "#57c254c2" },
 	},
 
+	"console-ninja.featureSet": "Community",
+
 	"extensions.ignoreRecommendations": true,
 
 	// EXPLORER
@@ -58,25 +60,27 @@
 	"explorer.confirmDragAndDrop": false,
 	"explorer.confirmPasteNative": false,
 
-	"console-ninja.featureSet": "Community",
-
 	// CHAT
+	"chat.editor.fontSize": 16,
 	"chat.mcp.autostart": "never",
 	"chat.mcp.serverSampling": {},
 	"chat.titleBar.openInAgentsWindow.enabled": false,
+	"chat.viewSessions.orientation": "stacked",
 
 	"debug.console.lineHeight": 1.5,
 
 	"diffEditor.renderSideBySide": false,
 
 	// EDITOR
+	"editor.insertSpaces": false,
+	"editor.fontSize": 15,
+	"editor.formatOnSave": true,
 	"editor.minimap.renderCharacters": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.detectIndentation": false,
 	"editor.lineHeight": 1.5,
-	"editor.fontFamily": "Fira Code",
+	"editor.fontFamily": "JetBrains Mono",
 	"editor.fontLigatures": true,
-	"editor.formatOnSave": true,
 	"editor.minimap.autohide": "mouseover",
 	"editor.minimap.maxColumn": 115,
 	"editor.minimap.showSlider": "always",
@@ -93,6 +97,8 @@
 
 	// FILES
 	"files.autoSaveWorkspaceFilesOnly": true,
+	"files.autoSave": "onWindowChange",
+	"files.autoSaveDelay": 2000,
 	"files.associations": {
 		"*.micro": "css",
 	},
@@ -117,12 +123,11 @@
 	"prettier.useTabs": true,
 
 	// SECURITY
+	"security.allowedUNCHosts": ["wsl.localhost"],
 	"security.workspace.trust.banner": "never",
 	"security.workspace.trust.startupPrompt": "never",
 	"security.workspace.trust.untrustedFiles": "open",
 	"security.workspace.trust.enabled": false,
-
-	"security.allowedUNCHosts": ["wsl.localhost"],
 	"settingsSync.ignoredExtensions": ["iwyvi.chinolor"],
 
 	// TASK
@@ -183,10 +188,10 @@
 	"workbench.sideBar.location": "right",
 	"workbench.productIconTheme": "icons-carbon",
 	"workbench.colorTheme": "Toge 2",
-	"workbench.experimental.modernUI": false,
 	"workbench.activityBar.location": "hidden",
 	"workbench.iconTheme": "file-icons",
 	"workbench.secondarySideBar.defaultVisibility": "hidden",
+	"workbench.statusBar.visible": false,
 	"workbench.settings.applyToAllProfiles": [
 		"terminal.integrated.suggest.enabled",
 	],
@@ -254,11 +259,8 @@
 			"javascript",
 		],
 	},
-	"editor.fontSize": 15,
-	"chat.viewSessions.orientation": "stacked",
-	"editor.insertSpaces": false,
-	"workbench.statusBar.visible": false,
-	"chat.editor.fontSize": 16,
+	"editor.minimap.enabled": false,
+	"workbench.modernUIFrostedGlassOpacity": 50,
 
 	// // CODE SPELL:
 	// "cSpell.language": "en,en_GB,pt,pt_BR",
