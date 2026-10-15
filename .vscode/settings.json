@@ -259,7 +259,6 @@
 			"javascript"
 		]
 	},
-	"editor.minimap.enabled": true,
 	"workbench.modernUIFrostedGlassOpacity": 50
 
 	// // CODE SPELL:
