@@ -74,13 +74,13 @@
 	// EDITOR
 	"editor.insertSpaces": false,
 	"editor.fontSize": 15,
+	"editor.fontFamily": "'JetBrains Mono', 'DejaVu Serif'",
+	"editor.fontLigatures": true,
 	"editor.formatOnSave": true,
 	"editor.minimap.renderCharacters": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.detectIndentation": false,
 	"editor.lineHeight": 1.5,
-	"editor.fontFamily": "JetBrains Mono",
-	"editor.fontLigatures": true,
 	"editor.minimap.autohide": "mouseover",
 	"editor.minimap.maxColumn": 115,
 	"editor.minimap.showSlider": "always",
@@ -137,6 +137,7 @@
 	"terminal.integrated.initialHint": false,
 	"terminal.integrated.copyOnSelection": true,
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.fontSize": 14.5,
 	"terminal.integrated.lineHeight": 1.2,
 	"terminal.integrated.suggest.enabled": false,
 	"terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
@@ -179,6 +180,8 @@
 	"window.commandCenter": false,
 
 	// WORKBENCH
+	"workbench.experimental.modernUI": false,
+	"workbench.modernUIFrostedGlassOpacity": 50,
 	"workbench.editor.enablePreview": false,
 	"workbench.editor.enablePreviewFromQuickOpen": false,
 	"workbench.editor.empty.hint": "hidden",
@@ -258,8 +261,7 @@
 			"typescript",
 			"javascript"
 		]
-	},
-	"workbench.modernUIFrostedGlassOpacity": 50
+	}
 
 	// // CODE SPELL:
 	// "cSpell.language": "en,en_GB,pt,pt_BR",
